@@ -1,0 +1,2 @@
+tup=(1,'ashu',3,4.0)
+print(len(tup))

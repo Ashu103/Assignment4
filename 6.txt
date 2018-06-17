@@ -1,0 +1,10 @@
+dict={}
+i=0
+while(i<10):
+    name=input('enter the name')
+    marks=input('enter the marks')
+    dict[name]=marks
+    i=i+1
+
+print(sorted(zip(dict.keys(),dict.values())))
+print(sorted(zip(dict.values(),dict.keys())))
